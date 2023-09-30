@@ -5,4 +5,5 @@ export declare class AppController {
     getUser(name: string): any;
     getRepos(name: string): any;
     getSingleRepo(owner: string, repo: string): any;
+    getHola(): any;
 }

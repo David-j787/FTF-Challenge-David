@@ -28,4 +28,10 @@ export class HttpCustomService {
 
     return apiCall;
   }
+
+  async getHola() {
+    return {
+      hola: 'hola'
+    }
+  }
 }

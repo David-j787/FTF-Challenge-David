@@ -28,6 +28,9 @@ let AppController = class AppController {
     getSingleRepo(owner, repo) {
         return this.httpCustomService.getRepoCommits(owner, repo);
     }
+    getHola() {
+        return this.httpCustomService.getHola();
+    }
 };
 exports.AppController = AppController;
 __decorate([
@@ -52,6 +55,12 @@ __decorate([
     __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", Object)
 ], AppController.prototype, "getSingleRepo", null);
+__decorate([
+    (0, common_1.Get)('hola'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Object)
+], AppController.prototype, "getHola", null);
 exports.AppController = AppController = __decorate([
     (0, common_1.Controller)(),
     __metadata("design:paramtypes", [app_service_1.HttpCustomService])

@@ -1,0 +1,36 @@
+#listContainerRepo {
+  padding: 20%;
+  padding-bottom: 15%;
+  padding-left: 10%;
+  padding-top: 11%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 200px;
+  grid-auto-rows: 100px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(244,244,244);
+  height: 10%;
+}
+
+#titleContainerRepo  h1{
+  text-align: center;
+  padding: 17%;
+  color: #000;
+  font-family: Cabin, sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+#btn_red {
+  border: 1px solid #0f98eb;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#btn_text {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}

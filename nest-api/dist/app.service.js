@@ -27,6 +27,11 @@ let HttpCustomService = class HttpCustomService {
         const apiCall = fetch(`https://api.github.com/repos/${owner}/${repo}/commits`).then((res) => res.json());
         return apiCall;
     }
+    async getHola() {
+        return {
+            hola: 'hola'
+        };
+    }
 };
 exports.HttpCustomService = HttpCustomService;
 __decorate([

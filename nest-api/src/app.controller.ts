@@ -22,4 +22,9 @@ export class AppController {
   ): any {
     return this.httpCustomService.getRepoCommits(owner, repo);
   }
+
+  @Get('hola')
+  getHola(): any {
+    return this.httpCustomService.getHola()
+  }
 }

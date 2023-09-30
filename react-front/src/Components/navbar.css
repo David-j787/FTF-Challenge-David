@@ -1,0 +1,65 @@
+#navContainer {
+  width: 100%;
+  height: 70px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 24px;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 6%;
+}
+
+#imgContainer {
+  display: flex;
+  align-items: center;
+}
+#imgContainer h1 {
+  font-family: Arial, sans-serif;
+  color: rgba(71,85,100,255);
+}
+
+#logo {
+  padding-right: 10px;
+}
+
+#nav a {
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+} 
+#nav :hover {
+  color: #00adef;
+  background-color: #fff;
+}
+.commonA {
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 12px;
+}
+
+#techBtn {
+  color: white;
+  background-color: #00adef;
+  border-radius: 100px;
+  font-family: Cabin, sans-serif; 
+}
+
