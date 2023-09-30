@@ -2,7 +2,6 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './src/home'
 import { Repos } from './src/repos'
-import { Search } from './src/search'
 import { Techs } from './src/techs'
 
 export default function App () {
@@ -10,7 +9,6 @@ export default function App () {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/search' element={<Search />} />
         <Route path='/repos' element={<Repos />} />
         <Route path='/techs' element={<Techs />} />
       </Routes>

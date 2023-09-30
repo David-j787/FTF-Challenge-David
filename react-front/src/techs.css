@@ -1,0 +1,36 @@
+#titleContainerTechs {
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+
+#titleTechs {
+  color: #000;
+  font-family: Cabin, sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 120%;
+}
+
+section{
+  display: flex;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .3;
+  transition: .4s ease;
+}
+section img:hover{
+  cursor: crosshair;
+  width: 100%;
+  height: fit-content;
+  opacity: 1;
+  filter: contrast(90%);
+}
+

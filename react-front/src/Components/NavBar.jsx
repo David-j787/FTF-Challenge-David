@@ -11,7 +11,6 @@ export function NavBar ({ isInHome }) {
         <nav id='nav'>
           {isInHome.res === false ? <a href='/' className='commonA'>Home</a> : <></>}
           <a href='/repos' className='commonA'>My repos</a>
-          <a href='/search' className='commonA'>Search users</a>
           <a href='/techs' id='techBtn'>Technologies</a>
         </nav>
       </div>
